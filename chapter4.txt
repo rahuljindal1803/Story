@@ -1,0 +1,18 @@
+This commit was initialised
+
+git status ---->give the staus of file which is being tracked to commit
+git log  ----->give the time of file added to the git [commit with speacial auth, author name ,date -  time]
+
+
+
+1. set it to the default working directory 
+2. add new file (touch chapter4.txt).
+  2.1 for file work (nano chapter4.txt)
+  2.2 to set for git [git init]
+3. for initialising the file [  git add {file name}/{.}(for all file to )] 
+4. commit the file with certain message with it [git commit -m"(type of adjustment)"]
+5. push it to the origin which reflect in GitHub [git push -u origin],!,if the origin is not set use [git remote add origin {url} ]
+
+if the file is modified then do step 3->4->5
+
+if you want to step back to the last modification use[git checkout (file name)]
